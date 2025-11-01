@@ -14,7 +14,7 @@ https://us-central1-konichiwow-backend.cloudfunctions.net/api
 
 - **Frontend live on:** 
 ```bash
-https://konichiwow-backend.web.app/login
+https://konichiwow-backend.web.app/
 ```
 
 ## 🧱 Project Structure
