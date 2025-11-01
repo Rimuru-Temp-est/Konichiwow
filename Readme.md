@@ -5,6 +5,19 @@ It enables users to register/login securely, manage expenses, and view detailed 
 
 ---
 
+## Deployed Links:
+
+- **Backend live on:** 
+```bash
+https://us-central1-konichiwow-backend.cloudfunctions.net/api
+```
+
+- **Frontend live on:** 
+```bash
+https://konichiwow-backend.web.app/
+```
+
+
 ## 🧱 Project Structure
 ```bash
 Konichiwow/
