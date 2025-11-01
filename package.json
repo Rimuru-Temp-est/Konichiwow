@@ -1,13 +1,14 @@
 {
-  "name": "konichiwow",
+  "name": "konichiwow-functions",
   "version": "1.0.0",
   "type": "module",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node src/server.js",
-    "dev": "nodemon src/server.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "serve": "firebase emulators:start",
+    "deploy": "firebase deploy --only functions"
   },
   "keywords": [],
   "author": "",

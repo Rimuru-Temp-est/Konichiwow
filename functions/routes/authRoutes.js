@@ -58,7 +58,7 @@ router.post(
       const { email, password } = req.body;
 
       const response = await fetch(
-        `https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=${process.env.FIREBASE_API_KEY}`,
+        `https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=${process.env.CLIENT_FIREBASE_API_KEY}`,
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },

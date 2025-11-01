@@ -5,6 +5,18 @@ It enables users to register/login securely, manage expenses, and view detailed 
 
 ---
 
+## Deployed Links:
+
+- **Backend live on:** 
+```bash
+https://us-central1-konichiwow-backend.cloudfunctions.net/api
+```
+
+- **Frontend live on:** 
+```bash
+https://konichiwow-backend.web.app/login
+```
+
 ## 🧱 Project Structure
 ```bash
 Konichiwow/
@@ -59,8 +71,8 @@ npm install
 ### 2. Create .env File (in root)
 ```bash
 MONGO_URI=mongodb+srv://<your-mongodb-connection-string>
-PORT=8080
-FIREBASE_API_KEY=<your-firebase-api-key>
+APP_PORT=8080
+CLIENT_FIREBASE_API_KEY=<your-firebase-api-key>
 ```
 
 ### 3. Add Firebase Service Account

@@ -1,12 +1,12 @@
 # =========================
-# Node
+# Node & Package Managers
 # =========================
 node_modules/
+package-lock.json
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
-package-lock.json
 
 # =========================
 # Environment & Secrets
@@ -16,6 +16,10 @@ package-lock.json
 .env.development.local
 .env.test.local
 .env.production.local
+
+# Explicitly ignore env files anywhere
+**/.env
+**/.env.local
 
 # =========================
 # Build Outputs
@@ -55,16 +59,14 @@ frontend/.env.local
 # =========================
 # Backend specific
 # =========================
-src/node_modules/
-src/dist/
-src/.env
-src/.env.local
+functions/node_modules/
+functions/dist/
+functions/.env
+functions/.env.local
+functions/firebase/serviceAccountKey.json
 
 # =========================
 # Firebase & Deployment
 # =========================
 .firebase/
 .firebaserc
-functions/node_modules/
-src/firebase/serviceAccountKey.json
-
