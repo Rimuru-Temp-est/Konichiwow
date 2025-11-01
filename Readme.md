@@ -5,6 +5,12 @@ It enables users to register/login securely, manage expenses, and view detailed 
 
 ---
 
+## Video Demo for the project:
+
+- Please find the Video Demonstration of the project in the following loom video:
+
+https://www.loom.com/share/ba1b7b93b53d42ef93f1168b86b754bd
+
 ## Deployed Links:
 
 - **Backend live on:** 
